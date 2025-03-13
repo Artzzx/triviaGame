@@ -56,12 +56,13 @@ A fast-paced, real-time multiplayer quiz game that utilizes WebSockets for live 
 ```
 ## Project Structure
 
-quiz_game/
-├── backend/        # Server-side code
-├── frontend/       # Client-side interface
-├── tests/          # Test suites
-└── docs/           # Documentation
-
+```
+    quiz_game/
+    ├── backend/        # Server-side code
+    ├── frontend/       # Client-side interface
+    ├── tests/          # Test suites
+    └── docs/           # Documentation
+```
 ## Game Modes
 
 - Quick Match: 10 random questions with 15-second time limit
