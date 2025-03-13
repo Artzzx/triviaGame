@@ -1,0 +1,61 @@
+## 3. .gitignore
+
+```gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.log
+*.sqlite
+*.sqlite3
+logs/
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Exclude database migrations from gitignore
+!backend/database/migrations/
+
+# Frontend
+*.min.js
+*.min.css
+node_modules/
+
+# Pygame
+frontend/assets/temp/
+
+# Backup files
+*.bak
+*~

@@ -1,0 +1,38 @@
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+
+# WebSockets
+python-socketio>=5.8.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+psycopg2-binary>=2.9.6  # For PostgreSQL
+sqlite-utils>=3.33     # For SQLite development
+
+# Authentication
+pyjwt>=2.7.0
+passlib[bcrypt]>=1.7.4
+
+# API Integration
+requests>=2.31.0
+aiohttp>=3.8.4  # For async HTTP requests
+python-dotenv>=1.0.0  # For environment variables
+
+# Game UI
+pygame>=2.5.0
+
+# Testing
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+httpx>=0.24.1  # For testing FastAPI
+
+# Development Tools
+black>=23.3.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Documentation
+mkdocs>=1.4.3
