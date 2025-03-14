@@ -60,3 +60,8 @@ frontend/assets/temp/
 # Backup files
 *.bak
 *~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
